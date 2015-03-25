@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Qk6lwNJzEeSBwfLcMu04rw">
+  <modelElement href="torikki.uml#_QLCtMNJzEeSBwfLcMu04rw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:UsageVisual" xmi:id="_aGqW4NJ1EeSBwfLcMu04rw" sourceAnchor="80.0,0.0" targetAnchor="81.0,111.0" client="_W3p5sNJ0EeSBwfLcMu04rw" supplier="_xCsqQdJ0EeSBwfLcMu04rw">
+    <modelElement href="torikki.uml#_aBm3wNJ1EeSBwfLcMu04rw"/>
+    <visualProperties xmi:id="_aG9R0NJ1EeSBwfLcMu04rw"/>
+    <nameVisual xmi:id="_aG9R0dJ1EeSBwfLcMu04rw" text=""/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_W3p5sNJ0EeSBwfLcMu04rw" using="_aGqW4NJ1EeSBwfLcMu04rw" name="Molecule_NetworkPacket">
+    <modelElement href="torikki.uml#_WsLpgNJ0EeSBwfLcMu04rw"/>
+    <visualProperties xmi:id="_W3p5sdJ0EeSBwfLcMu04rw" position="801.0,585.0" size="162.0,111.0"/>
+    <visibility xmi:id="_W3p5stJ0EeSBwfLcMu04rw" label="+"/>
+    <attributes xmi:id="_o3EsodJ0EeSBwfLcMu04rw" name="ipSrcAddress">
+      <modelElement href="torikki.uml#_o3EsoNJ0EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_o3EsotJ0EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_o3Eso9J0EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_EiBM4NJ5EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_qxvpkdJ0EeSBwfLcMu04rw" name="ipDestAddress">
+      <modelElement href="torikki.uml#_qxvpkNJ0EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_qxvpktJ0EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_qxvpk9J0EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_qxvplNJ0EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QdHNQdJ2EeSBwfLcMu04rw" name="ipProtocol">
+      <modelElement href="torikki.uml#_QdHNQNJ2EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_QdHNQtJ2EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_QdHNQ9J2EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_QdHNRNJ2EeSBwfLcMu04rw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VaJH8dJ2EeSBwfLcMu04rw" name="ipPacketNumber">
+      <modelElement href="torikki.uml#_VaJH8NJ2EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_VaJH8tJ2EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_VaJH89J2EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_VaJH9NJ2EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nWqX4dJ2EeSBwfLcMu04rw" name="Molecule_GEOLocation">
+    <modelElement href="torikki.uml#_nWqX4NJ2EeSBwfLcMu04rw"/>
+    <visualProperties xmi:id="_nWqX4tJ2EeSBwfLcMu04rw" position="44.0,601.0" size="148.0,99.0"/>
+    <visibility xmi:id="_nWqX49J2EeSBwfLcMu04rw" label="+"/>
+    <attributes xmi:id="_0DwVkdJ2EeSBwfLcMu04rw" name="geoLAT">
+      <modelElement href="torikki.uml#_0DwVkNJ2EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_0DwVktJ2EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_0DwVk9J2EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_0DwVlNJ2EeSBwfLcMu04rw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_9fIdJ2EeSBwfLcMu04rw" name="geoLONG">
+      <modelElement href="torikki.uml#_0_9fINJ2EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_0_9fItJ2EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_0_9fI9J2EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_0_9fJNJ2EeSBwfLcMu04rw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_90vugdJ2EeSBwfLcMu04rw" name="geoALT">
+      <modelElement href="torikki.uml#_90vugNJ2EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_90vugtJ2EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_90vug9J2EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_90vuhNJ2EeSBwfLcMu04rw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SgryENJ3EeSBwfLcMu04rw" name="Molecule_DateTime">
+    <modelElement href="torikki.uml#_SgioINJ3EeSBwfLcMu04rw"/>
+    <visualProperties xmi:id="_SgryEdJ3EeSBwfLcMu04rw" position="238.0,593.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SgryEtJ3EeSBwfLcMu04rw" label="+"/>
+    <attributes xmi:id="_mZNbsdJ3EeSBwfLcMu04rw" name="dtEpoch">
+      <modelElement href="torikki.uml#_mZNbsNJ3EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_mZNbstJ3EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_mZNbs9J3EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_Eh3b4NJ5EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Wm8AUNJ4EeSBwfLcMu04rw" name="getYear">
+      <modelElement href="torikki.uml#_Wmy2YNJ4EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_Wm8AUdJ4EeSBwfLcMu04rw" label="+"/>
+    </operations>
+    <operations xmi:id="_Yhu5EdJ4EeSBwfLcMu04rw" name="getDate">
+      <modelElement href="torikki.uml#_Yhu5ENJ4EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_Yhu5EtJ4EeSBwfLcMu04rw" label="+"/>
+    </operations>
+    <operations xmi:id="_bqQJMdJ4EeSBwfLcMu04rw" name="getHour">
+      <modelElement href="torikki.uml#_bqQJMNJ4EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_bqQJMtJ4EeSBwfLcMu04rw" label="+"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_xCsqQdJ0EeSBwfLcMu04rw" supplying="_aGqW4NJ1EeSBwfLcMu04rw" name="Compound_IPSummary">
+    <modelElement href="torikki.uml#_xCsqQNJ0EeSBwfLcMu04rw"/>
+    <visualProperties xmi:id="_xCsqQtJ0EeSBwfLcMu04rw" position="800.0,377.0" size="163.0,111.0"/>
+    <visibility xmi:id="_xCsqQ9J0EeSBwfLcMu04rw" label="+"/>
+    <attributes xmi:id="_PpxhQdJ1EeSBwfLcMu04rw" name="ipStartDate">
+      <modelElement href="torikki.uml#_PpxhQNJ1EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_PpxhQtJ1EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_PpxhQ9J1EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_PpxhRNJ1EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_RXNTcdJ1EeSBwfLcMu04rw" name="ipEndDate">
+      <modelElement href="torikki.uml#_RXNTcNJ1EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_RXNTctJ1EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_RXNTc9J1EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_RXNTdNJ1EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Ugh00dJ1EeSBwfLcMu04rw" name="ipBitLength">
+      <modelElement href="torikki.uml#_Ugh00NJ1EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_Ugh00tJ1EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_Ugh009J1EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_Ugh01NJ1EeSBwfLcMu04rw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oShYodJ1EeSBwfLcMu04rw" name="ipProtocol">
+      <modelElement href="torikki.uml#_oShYoNJ1EeSBwfLcMu04rw"/>
+      <visibility xmi:id="_oShYotJ1EeSBwfLcMu04rw" label="+"/>
+      <cardinality xmi:id="_oShYo9J1EeSBwfLcMu04rw" label="1" max="1" min="1"/>
+      <type xmi:id="_oShYpNJ1EeSBwfLcMu04rw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
